@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* nav */
+.nav-container {
+    position: fixed;
+    width: 100%;
+    height: 46px;
+    color : #999999;
+    background-color: #333333;
+}
+
+
+.nav-item {
+    display: inline-block;
+    float: left;
+    text-align: center;
+    margin: 0;
+    padding: 12px 10px;
+    width: 44.079px;
+    height: 21px;
+    font-size: 14px;
+}
+
+.nav-itemleft {
+    display: inline-block;
+    border-right: 1px solid #111;
+    padding: 12px 0px;
+    height: 22px;
+    width: 103px;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+}
+.nav-itemleft1 {
+    display: inline-block;
+    border-right: 1px solid #111111;
+    padding: 12px 0px;
+    height: 22px;
+    width: 103px;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+}
+
+.nav-search {
+    display: inline-block;
+    padding: 9px 10px 8px;
+    width: 392.016px;
+    height: 28px;
+    float: left;
+    font-family: FontAwesome;
+}
+
+.nav-sc {
+    display: inline-block;
+    float: left;
+    text-align: center;
+}
+
+input {
+    position: absolute;
+    border: 0;
+    border-radius: 4px;
+    padding: 5px 7px;
+    width: 378.016px;
+    height: 18px;
+    font-family: FontAwesome;
+    background-color: #e5e5e5;
+}
+
+.fa-search {
+    position: absolute;
+    left: 1017px;
+    top: 17px;
+    margin: 0;
+    color: #333333;
+}
+
+.fa-ellipsis-h {
+    position: absolute;
+    margin: 0;
+    left: 1350px;
+    top: 15px;
+    margin: 0;
+    color: #ffffff;
+}
+
+.account {
+    display: inline-block;
+    padding: 9px 10px 10px;
+    width: 201.906px;
+    height: 26px;
+    float: left;
+}
+
+.signin {
+    display: inline-block;
+    height: 26px;
+    margin-right: 10px;
+    border: 1px solid #666;
+    border-radius: 3px;
+    padding: 2px 11px 2px 10px;
+    float: left;
+    background-color: #333;
+    color: #fff;  
+    position: relative; 
+    font-size: 14px;
+}
+
+.createaccount { 
+    display: inline-block;
+    height: 26px;
+    margin-left: 8px;
+    border: 1px solid #f50;
+    border-radius: 3px;
+    background-color: #f50;
+    padding: 2px 11px 2px 10px;
+    color: #fff;
+    position: relative;
+    font-size: 14px;
+}
+
+.nav-item a {
+    color: #cccccc;
+}
+
+.nav-sc a{
+    color: #ffffff;
+}
+
+.nav-itemleft a{
+    color: #cccccc;
+}
+
+.nav-itemleft1 a{
+    color: #ffffff
+}
+
+.margin-left {
+    margin-left: 139.6px;
+}
+
+/* main */
+
+.main-container {
+    width: 1180px;
+    margin: 0;
+    padding: 46px 30px 75px;
+    border-right: 139.6px #f2f2f2 solid;
+    border-left: 139.6px #f2f2f2 solid;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+/* section */
+
+.section-all {
+    width: 819px;
+    padding: 30px 30px 0 0;
+    margin-right: 330px;
+    display: inline-block;
+    border-right: 1px #f2f2f2 solid;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+}
+
+.section-container {
+    display: inline-block;
+    margin: 0px 0px 34px;
+    border-top: 0px;
+    border-bottom: 1px #f2f2f2 solid;
+    border-right: 0px;
+    border-left: 0px;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: 100;
+    margin: 0;
+}
+
+.section-name {
+    font-size: 12px;
+}
+
+.section-explain {
+    margin: 5px 0 24px;
+    font-size: 14px;
+    font-weight: 100;
+    color: #999;
+}
+
+.section-album {
+    padding-right: 20px;
+    padding-bottom: 39px;
+    font-size: 12px;
+    float: left;
+}
+
+.section-genre {
+    margin: 3px 0 0;
+    font-size: 14px;
+    font-weight: 100;
+    color: #333;
+}
+
+.section-lanking {
+    margin: 0;
+    font-weight: 100;
+    color: #999;
+}
+
+aside {
+    position: fixed;
+    margin: 0 30px;
+    top: 80px;
+    right: 139.6px;
+    width: 300px;
+    height: 53px;
+    padding: 11px 0 80px;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 0;
+    border-right: 0;
+    border-left: 0;
+    font-size: 12px;
+    color: #cccccc;
+}
+
+aside a {
+    color: #cccccc;
+}
+
+.aside-language {
+    color: #3388dd;
+}
